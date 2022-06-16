@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>註冊表單</title>
+     <style>
+        .form
+    {
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px
+    }
+    input[type=text], input[type=password],input[type=email] {
+    padding:8px 14px;
+    width:200px;
+    border-radius:5px;
+    border: 1px #cccccc solid;
+         
+     </style>
+ </head>
+ <body>
+     <form>
+         <table>
+             <tr>
+                 <td>Name :</td>
+                 <td><input type="text"></td>
+             </tr>
+             <tr>
+                 <td>Password :</td>
+                 <td><input type="password"></td>
+             </tr>
+             <tr>
+                 <td>Gender :</td>
+                 <td>
+                     <input type="radio" name="gander">male
+                     <input type="radio" name="gender">female
+                 </td>
+             </tr>
+             <tr>
+                 <td>Email :</td>
+                 <td><input type="email"></td>
+             </tr>
+             <button class="Button">Sign up</button>
+         </table>
+     </form>
+ </body>   
+</html>
